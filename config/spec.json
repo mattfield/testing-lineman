@@ -1,0 +1,10 @@
+{
+  "framework" : "jasmine",
+  "launch_in_dev" : ["Chrome"],
+  "launch_in_ci" : ["PhantomJS"],
+  "before_testing" : "coffee -c spec/*.coffee",
+  "src_files" : [
+    "generated/js/app.js",
+    "generated/js/spec.js"
+  ]
+}
